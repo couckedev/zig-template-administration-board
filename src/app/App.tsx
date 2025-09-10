@@ -1,11 +1,8 @@
-import "./App.css";
+import "./global.css";
+import { ListUsersPage } from "@/pages/list-users/ui/list-users.page";
 
-function App() {
+export function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </>
+    <ListUsersPage />
   );
 }
-
-export default App;

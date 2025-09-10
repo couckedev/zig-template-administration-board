@@ -43,4 +43,4 @@ lerna-debug.log*
 
 # Lockfiles (ignore those you don't use)
 yarn.lock
-pnpm-lock.yaml
+package-lock.json

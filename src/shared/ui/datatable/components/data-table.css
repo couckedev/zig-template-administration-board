@@ -1,0 +1,18 @@
+.data-table--table-wrapper {
+  overflow-x: auto;
+  overflow-y: auto;
+  width: 100%;
+  max-height: 70vh;
+}
+
+.data-table--table {   
+    border-collapse: separate;
+    border-spacing: 0;
+    height: 70vh;
+    & th {
+        position: sticky;
+        top: 0;
+        z-index: 2;           /* pour être au-dessus du body */
+    }
+}
+

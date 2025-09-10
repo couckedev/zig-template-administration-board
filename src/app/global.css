@@ -1,0 +1,73 @@
+@import "tailwindcss";          /* Tailwind v4 core */
+/*@import "@/shared/config/theme/design-tokens/radius.css";*/
+/*@import "@/shared/config/theme/design-tokens/semantic.css";
+@import "@/shared/config/theme/shadcn-adapter.css";*/
+@plugin "tailwindcss-animate";
+
+@theme {
+  /* Palette zig */
+  --color-zig-green-darker: #001a12;
+  --color-zig-green-dark: #093E3B; 
+  --color-zig-green: #066A5D; 
+  --color-zig-green-light: #15A98F; 
+  --color-zig-green-lighter: #31bb93; 
+  --color-zig-green-lightest: #cee9e5; 
+  --color-zig-green-faint: #ecf8f6; 
+  
+  --color-zig-yellow-darker: #4d4500;
+  --color-zig-yellow-dark: #e6cf08; 
+  --color-zig-yellow: #ffe443; 
+  --color-zig-yellow-light: #ffee4d; 
+  --color-zig-yellow-lighter: #fff37e; 
+  --color-zig-yellow-lightest: #fff8af; 
+  --color-zig-yellow-faint: #fffedc;   
+  
+  --color-zig-red-darker: #980707;
+  --color-zig-red-dark: #e53e3e; 
+  --color-zig-red: #ff1f26; 
+  --color-zig-red-light: #ff8589; 
+  --color-zig-red-lighter: #ffc2c4; 
+  --color-zig-red-lightest: #fee9e9; 
+
+  --color-zig-black: #1b1c1e;
+  --color-zig-dark-gray-darker: #444854;
+  --color-zig-dark-gray-dark: #4a5568; 
+  --color-zig-dark-gray: #718096; 
+  --color-zig-dark-gray-light: #a0aec0; 
+
+  --color-zig-light-gray-darker: #eaecf0;
+  --color-zig-light-gray-dark: #d9d9d9; 
+  --color-zig-light-gray: #f4f4f4; 
+  --color-zig-light-gray-light: #f9fafb; 
+
+  --color-zig-blue-darker: #195a76;
+  --color-zig-blue-dark: #278db9; 
+  --color-zig-blue: #35a4d4; 
+  --color-zig-blue-light: #68bbdf; 
+  --color-zig-blue-lighter: #abd9ed; 
+  --color-zig-blue-faint: #b8e7f8;
+
+
+  --color-primary: var(--color-zig-green);
+  --color-primary-hover: var(--color-zig-green-dark);
+  --color-primary-disabled: var(--color-zig-green-lightest);
+  
+  --color-secondary: var(--color-zig-green-lightest);
+  --color-secondary-foreground: var(--color-zig-green);
+  --color-secondary-hover: var(--color-zig-green);
+  --color-secondary-hover-foreground: var(--color-white);
+  --color-secondary-disabled: var(--color-zig-green-faint);
+  --color-secondary-disabled-foreground: var(--color-zig-green-lighter);
+  
+  --color-ghost: var(--color-zig-dark-gray-dark);
+  --color-ghost-hover: var(--color-zig-green);
+  --color-ghost-disabled: var(--color-zig-light-gray-dark);
+
+  --color-decline: var(--color-zig-red-dark);
+  --color-decline-hover: var(--color-zig-red-darker);
+  --color-decline-disabled: var(--color-zig-red-lightest);
+  
+  --color-info: var(--color-zig-blue);
+  --color-info-hover: var(--color-zig-blue-darker);
+  --color-info-disabled: var(--color-zig-blue-faint);
+}

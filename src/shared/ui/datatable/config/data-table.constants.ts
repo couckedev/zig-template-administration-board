@@ -1,0 +1,3 @@
+export const DEFAULT_PAGE_SIZES = [10,25,50,75,100];
+export const DEFAULT_PAGE_SIZE = DEFAULT_PAGE_SIZES[0];
+export const INITIAL_PAGE = 1;

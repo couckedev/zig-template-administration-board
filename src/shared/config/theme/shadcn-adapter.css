@@ -1,0 +1,16 @@
+/* Map des variables attendues par shadcn vers tes tokens (HSL) */
+:root {
+  --background: var(--ds-white);
+  --foreground: var(--ds-gray-900);
+
+  --border: var(--ds-gray-200);
+  --input: var(--ds-gray-200);
+  --ring: var(--ds-teal-600);
+
+  --muted-foreground: var(--ds-gray-500);
+
+  /* Etats d'erreur */
+  --destructive: var(--ds-red-600);
+  --destructive-foreground: var(--ds-white);
+
+}
